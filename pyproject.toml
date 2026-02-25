@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.133.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pymysql>=1.1.2",
+    "python-dotenv>=1.2.1",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.22",
+    "sqlalchemy>=2.0.47",
+    "uvicorn>=0.41.0",
+]
